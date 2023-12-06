@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PlakDukkani
 {
-    public partial class Login : Form
+    public partial class Girisyap : Form
     {
-        public Login()
+        public Girisyap()
         {
             InitializeComponent();
         }

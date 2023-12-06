@@ -4,7 +4,7 @@
     <Compile Update="KayitOl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Login.cs">
+    <Compile Update="Girisyap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SifreDegistirme.cs">
