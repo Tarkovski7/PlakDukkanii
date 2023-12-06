@@ -39,66 +39,66 @@
             // 
             // txtConfirmNewPassword
             // 
-            txtConfirmNewPassword.Location = new Point(384, 237);
+            txtConfirmNewPassword.Location = new Point(185, 139);
             txtConfirmNewPassword.Name = "txtConfirmNewPassword";
             txtConfirmNewPassword.Size = new Size(189, 23);
             txtConfirmNewPassword.TabIndex = 20;
             // 
             // txtNewPassword
             // 
-            txtNewPassword.Location = new Point(384, 191);
+            txtNewPassword.Location = new Point(185, 93);
             txtNewPassword.Name = "txtNewPassword";
             txtNewPassword.Size = new Size(189, 23);
             txtNewPassword.TabIndex = 19;
             // 
             // txtCurrentPassword
             // 
-            txtCurrentPassword.Location = new Point(384, 142);
+            txtCurrentPassword.Location = new Point(185, 44);
             txtCurrentPassword.Name = "txtCurrentPassword";
             txtCurrentPassword.Size = new Size(189, 23);
             txtCurrentPassword.TabIndex = 18;
             // 
             // btnChangePassword
             // 
-            btnChangePassword.Location = new Point(283, 286);
+            btnChangePassword.Location = new Point(405, 61);
             btnChangePassword.Name = "btnChangePassword";
-            btnChangePassword.Size = new Size(270, 23);
+            btnChangePassword.Size = new Size(143, 84);
             btnChangePassword.TabIndex = 17;
-            btnChangePassword.Text = "Change Password";
+            btnChangePassword.Text = "Şifreni Değiştir";
             btnChangePassword.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(228, 240);
+            label3.Location = new Point(29, 142);
             label3.Name = "label3";
-            label3.Size = new Size(137, 15);
+            label3.Size = new Size(133, 15);
             label3.TabIndex = 16;
-            label3.Text = "Confirm New Password :";
+            label3.Text = "Yeni Parola Doğrulama :";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(228, 194);
+            label2.Location = new Point(29, 96);
             label2.Name = "label2";
-            label2.Size = new Size(90, 15);
+            label2.Size = new Size(61, 15);
             label2.TabIndex = 15;
-            label2.Text = "New Password :";
+            label2.Text = "Yeni Şifre :";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(228, 145);
+            label1.Location = new Point(29, 47);
             label1.Name = "label1";
-            label1.Size = new Size(106, 15);
+            label1.Size = new Size(79, 15);
             label1.TabIndex = 14;
-            label1.Text = "Current Password :";
+            label1.Text = "Mevcut Şifre :";
             // 
             // SifreDegistirme
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(587, 217);
             Controls.Add(txtConfirmNewPassword);
             Controls.Add(txtNewPassword);
             Controls.Add(txtCurrentPassword);
@@ -107,7 +107,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "SifreDegistirme";
-            Text = "SifreDegistirme";
+            Text = "Şifre Değiştirme Ekranı";
             ResumeLayout(false);
             PerformLayout();
         }

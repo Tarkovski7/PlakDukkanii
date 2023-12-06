@@ -1,6 +1,6 @@
 ﻿namespace PlakDukkani
 {
-    partial class Login
+    partial class Girisyap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,84 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label1 = new Label();
             txtPassword = new TextBox();
             txtUserName = new TextBox();
             btnLogin = new Button();
             linklblKayit = new LinkLabel();
-            label3 = new Label();
-            label2 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(32, 36);
+            label1.Name = "label1";
+            label1.Size = new Size(273, 15);
+            label1.TabIndex = 26;
+            label1.Text = "Plak Dükkanı Album Kayıt Programına Hoşgeldiniz";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(359, 192);
+            txtPassword.Location = new Point(127, 121);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(177, 23);
-            txtPassword.TabIndex = 19;
-            txtPassword.TextChanged += txtPassword_TextChanged;
+            txtPassword.TabIndex = 25;
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(359, 136);
+            txtUserName.Location = new Point(127, 81);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(177, 23);
-            txtUserName.TabIndex = 18;
-            txtUserName.TextChanged += this.txtUserName_TextChanged;
+            txtUserName.TabIndex = 24;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(264, 252);
+            btnLogin.Location = new Point(101, 162);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(272, 29);
-            btnLogin.TabIndex = 17;
-            btnLogin.Text = "Login";
+            btnLogin.Size = new Size(203, 29);
+            btnLogin.TabIndex = 23;
+            btnLogin.Text = "Giriş Yap";
             btnLogin.UseVisualStyleBackColor = true;
-            btnLogin.Click += this.btnLogin_Click;
             // 
             // linklblKayit
             // 
             linklblKayit.AutoSize = true;
-            linklblKayit.Location = new Point(476, 300);
+            linklblKayit.Location = new Point(32, 169);
             linklblKayit.Name = "linklblKayit";
-            linklblKayit.Size = new Size(40, 15);
-            linklblKayit.TabIndex = 16;
+            linklblKayit.Size = new Size(48, 15);
+            linklblKayit.TabIndex = 22;
             linklblKayit.TabStop = true;
-            linklblKayit.Text = "SignIn";
-            linklblKayit.LinkClicked += this.linklblKayit_LinkClicked;
+            linklblKayit.Text = "Kayıt Ol";
             // 
-            // label3
+            // label4
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(264, 195);
-            label3.Name = "label3";
-            label3.Size = new Size(63, 15);
-            label3.TabIndex = 15;
-            label3.Text = "Password :";
-            label3.Click += this.label3_Click;
+            label4.AutoSize = true;
+            label4.Location = new Point(32, 124);
+            label4.Name = "label4";
+            label4.Size = new Size(36, 15);
+            label4.TabIndex = 21;
+            label4.Text = "Şifre :";
             // 
-            // label2
+            // label5
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(264, 139);
-            label2.Name = "label2";
-            label2.Size = new Size(71, 15);
-            label2.TabIndex = 14;
-            label2.Text = "User Name :";
-            label2.Click += this.label2_Click;
+            label5.AutoSize = true;
+            label5.Location = new Point(32, 84);
+            label5.Name = "label5";
+            label5.Size = new Size(79, 15);
+            label5.TabIndex = 20;
+            label5.Text = "Kullanıcı Adı :";
             // 
-            // Login
+            // Girisyap
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(334, 234);
+            Controls.Add(label1);
             Controls.Add(txtPassword);
             Controls.Add(txtUserName);
             Controls.Add(btnLogin);
             Controls.Add(linklblKayit);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Name = "Login";
-            Text = "Login";
+            Controls.Add(label4);
+            Controls.Add(label5);
+            Name = "Girisyap";
+            Text = "Plak Dükkanı Giriş Ekranı";
             Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -113,11 +118,12 @@
 
         #endregion
 
+        private Label label1;
         private TextBox txtPassword;
         private TextBox txtUserName;
         private Button btnLogin;
         private LinkLabel linklblKayit;
-        private Label label3;
-        private Label label2;
+        private Label label4;
+        private Label label5;
     }
 }
